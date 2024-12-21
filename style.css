@@ -1,0 +1,103 @@
+body{
+    background-color: #FAF6E3;
+}
+.title-bar{
+    height: 70px;
+    background-color:#2A3663 ;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 2px solid white;
+
+}
+.title-bar >h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    text-shadow: chocolate;
+}
+.q-c{
+    height: 70px;
+    width: 100%;
+    background-color: #B59F78;
+}
+.q-c>h2{
+    text-align: center;
+    background-color:#2A3663 ;
+    border: 3px solid white ;
+}
+.q-c>h4{
+    text-align: center;
+    color: white;
+    font-size: medium;
+
+}
+
+.big-box{
+    display:flex;
+    padding: 1px;
+    margin: 4px;
+}
+
+
+.left-box{
+    height: 900px;
+    width: 50%;
+    background-color: #D8DBBD;
+    border: solid 2px  black;
+    text-align: center;
+
+}
+.movie{
+    height:450px ;
+    width: 100%;
+    background-color: #B59F78;
+    
+}
+.right-box{
+    height: 900px;
+    width: 50%;
+    background-color: #D8DBBD;
+    border: solid 2px  black;  
+    margin-left: 5px; 
+}
+.image-m{
+    image-resolution: 100px;
+    border: #2A3663;
+border-radius: 30%;
+}
+.foot{
+    background-color: #133E87;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: #C6E7FF;
+    display: flex;
+    flex-direction: row;
+
+   
+    
+
+}
+.button{
+    background-color: #2A3663;
+    cursor:grab;
+}
+.music{
+    height: 430px;
+    margin-top: 3px;
+    background-color: #31511E ;
+    border-top: 3px solid black;
+
+}
+.calendar{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+.mails{
+    height: 300px;
+    width: 100%;
+    color: white;
+}
